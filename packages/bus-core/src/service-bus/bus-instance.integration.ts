@@ -304,7 +304,7 @@ describe('BusInstance', () => {
           .build()
         fail('Registry should throw an SystemMessageMissingResolver error')
       } catch (error) {
-        console.log(error)
+        // console.log(error)
         expect(error).toBeInstanceOf(SystemMessageMissingResolver)
       }
     })
