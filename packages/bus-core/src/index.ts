@@ -1,9 +1,9 @@
 export {
-  Transport,
-  TransportMessage,
-  TransportConfiguration,
-  TransportConnectionOptions,
-  TransportInitializationOptions,
+  type Transport,
+  type TransportMessage,
+  type TransportConfiguration,
+  type TransportConnectionOptions,
+  type TransportInitializationOptions,
   DEFAULT_DEAD_LETTER_QUEUE_NAME
 } from './transport'
 export * from './handler'

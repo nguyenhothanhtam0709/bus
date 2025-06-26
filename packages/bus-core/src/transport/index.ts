@@ -1,5 +1,5 @@
 export * from './transport'
-export { InMemoryQueue, InMemoryMessage } from './in-memory-queue'
+export { InMemoryQueue, type InMemoryMessage } from './in-memory-queue'
 export * from './transport-message'
 export * from './transport-configuration'
 export * from './in-memory-queue-configuration'

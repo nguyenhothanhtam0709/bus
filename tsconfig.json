@@ -9,6 +9,7 @@
     "strict": true,
     "alwaysStrict": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
 
     // Handled in linting, useful for testing
     "allowUnreachableCode": true,
